@@ -1,8 +1,9 @@
 import random
 
+
 def getAnswer(answerNumber):
     if answerNumber == 1:
-        return  'It is certain'
+        return 'It is certain'
     elif answerNumber == 2:
         return 'It is decidedly so'
     elif answerNumber == 3:
@@ -18,9 +19,10 @@ def getAnswer(answerNumber):
     elif answerNumber == 8:
         return 'Outlook nopt so good'
     elif answerNumber == 9:
-         return 'Very doubtful'
+        return 'Very doubtful'
 
-r = random.randint(1, 9)
-fortune = getAnswer(r)
+
+# r = random.randint(1, 9)
+
+fortune = getAnswer(random.randint(1, 9))
 print(fortune)
-
