@@ -21,9 +21,9 @@ def make_pizza3(size, *toppings):
         print(f"- {topping}")
 
 
-print('a' * 2)
-make_pizza('pepperoni')
-make_pizza('mushrooms', 'green peppers', 'extra cheese')
+#print('a' * 2)
+#make_pizza('pepperoni')
+#make_pizza('mushrooms', 'green peppers', 'extra cheese')
 
-make_pizza3(12,'pepperoni*2')
-make_pizza3(13,'mushrooms*2', 'green peppers2', 'extra cheese2')
+#make_pizza3(12,'pepperoni*2')
+#make_pizza3(13,'mushrooms*2', 'green peppers2', 'extra cheese2')
